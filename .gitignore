@@ -1,0 +1,51 @@
+# ==========================================
+# MATLAB, Simulink, Simscape & System Composer
+# ==========================================
+# Auto-generated build and cache folders
+slprj/
+sfprj/
+*_ert_rtw/
+*_grt_rtw/
+*_raccel_rtw/
+*_accel_rtw/
+codegen/
+
+# Cache and autosave files
+*.slxc
+*.autosave
+*.asv
+*.m~
+*.slx.r20*
+*.mdl.r20*
+
+# Compiled MEX binaries and simulation logs
+*.mex*
+*.mat~
+sim_logs/
+
+# ==========================================
+# SolidWorks CAD Files
+# ==========================================
+# Temporary lock files created when CAD is open (critical to ignore)
+~$*.SLDPRT
+~$*.SLDASM
+~$*.SLDDRW
+~$*.sldprt
+~$*.sldasm
+~$*.slddrw
+
+# SolidWorks backup and journal files
+*.bak
+swxJRNL.swj
+
+# ==========================================
+# Large Datasets & OS Junk
+# ==========================================
+# Ignore large raw Kaggle CSVs (keep only a small sample or link in README)
+data/raw/*.csv
+*.zip
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini

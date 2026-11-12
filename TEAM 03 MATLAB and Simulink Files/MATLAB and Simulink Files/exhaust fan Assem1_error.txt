@@ -1,0 +1,4 @@
+Constrained Instances: 'exhaust fan part 3-1', 'exhaust fan part 3-1', 'exhaust fan CASING part1-1', 'exhaust fan CASING part1-1'
+Constraint Name: Width1
+Error Details: Constraint is not supported. The constraint has been ignored.
+---------------------------------------------------------------------------------

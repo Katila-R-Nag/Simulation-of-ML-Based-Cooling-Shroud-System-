@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="12/25/25||21:02:59" using="Simscape Multibody Link Version 7.4" from="SolidWorks 33.5.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="exhaust fan Assem1" uid="exhaust fan Assem1" version="163">
+<AssemblyFile name="exhaust fan Assem1.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="exhaust fan CASING part1-1" uid="exhaust fan CASING part1-1" grounded="true" entityUid="exhaust fan CASING part1*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="exhaust fan part 3-1" uid="exhaust fan part 3-1" entityUid="exhaust fan part 3*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0.12335288568296969 -0.059749999999999984</Translation>
+</Transform>
+</Instance>
+<Instance name="exhaust fan-1" uid="exhaust fan-1" entityUid="exhaust fan*:*Default">
+<Transform>
+<Rotation>0.48374668523992359 -0.87520805784646794 0 0.87520805784646794 0.48374668523992359 0 0 0 1</Rotation>
+<Translation>0 0 -0.013000000000000006</Translation>
+</Transform>
+</Instance>
+<Instance name="exhaust fan casing 2-2" uid="exhaust fan casing 2-2" grounded="true" entityUid="exhaust fan casing 2*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="exhaust fan part 3-2" uid="exhaust fan part 3-2" entityUid="exhaust fan part 3*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0.018352885682969639 -0.059749999999999914</Translation>
+</Transform>
+</Instance>
+<Instance name="exhaust fan part 3-3" uid="exhaust fan part 3-3" entityUid="exhaust fan part 3*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 -0.086647114317030025 -0.059750000000000462</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>exhaust fan CASING part1-1</Uid>
+</InstancePath>
+<Position>-0.20000000000000012 0.14649999999999996 -0.054500000000000035</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>exhaust fan part 3-1</Uid>
+</InstancePath>
+<Position>0.17499999999999999 0.023147114317029968 0.0052499999999999977</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>exhaust fan CASING part1-1</Uid>
+</InstancePath>
+<Position>-0.20000000000000012 0.041499999999999954 -0.054500000000000035</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>exhaust fan part 3-2</Uid>
+</InstancePath>
+<Position>0.17499999999999999 0.023147114317029961 0.0052499999999999977</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>exhaust fan part 3-1</Uid>
+</InstancePath>
+<Position>0.17499999999999999 0.023147114317029968 0.0052499999999999977</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>exhaust fan part 3-2</Uid>
+</InstancePath>
+<Position>0.17499999999999999 0.023147114317029961 0.0052499999999999977</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>exhaust fan CASING part1-1</Uid>
+</InstancePath>
+<Position>-0.20000000000000012 -0.063500000000000043 -0.054500000000000035</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>exhaust fan part 3-3</Uid>
+</InstancePath>
+<Position>0.17499999999999999 0.023147114317029968 0.0052499999999999977</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>exhaust fan part 3-2</Uid>
+</InstancePath>
+<Position>0.17499999999999999 0.023147114317029961 0.0052499999999999977</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>exhaust fan part 3-3</Uid>
+</InstancePath>
+<Position>0.17499999999999999 0.023147114317029968 0.0052499999999999977</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>exhaust fan part 3-1</Uid>
+</InstancePath>
+<Position>0.16850000000000001 -0.073749999999999996 -0.0074999999999999928</Position>
+<Axis>0 -4.5930652881102943e-16 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>exhaust fan part 3-2</Uid>
+</InstancePath>
+<Position>0.16850000000000001 -0.073749999999999996 -0.0075000000000000067</Position>
+<Axis>0 -4.5930652881102943e-16 -1</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Parallel name="Parallel2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>exhaust fan part 3-2</Uid>
+</InstancePath>
+<Position>0.16850000000000001 -0.073749999999999996 -0.0075000000000000067</Position>
+<Axis>0 -4.5930652881102943e-16 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>exhaust fan part 3-3</Uid>
+</InstancePath>
+<Position>0.16850000000000001 -0.073749999999999996 -0.0074999999999999997</Position>
+<Axis>0 -4.5930652881102943e-16 -1</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Angle name="LimitAngle1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>exhaust fan part 3-1</Uid>
+</InstancePath>
+<Position>0.16850000000000001 -0.073749999999999996 -0.0074999999999999928</Position>
+<Axis>0 -4.5930652881102943e-16 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>exhaust fan CASING part1-1</Uid>
+</InstancePath>
+<Position>0.16050000000000014 -0.16050000000000011 -0.074999999999999997</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Angle>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>exhaust fan casing 2-2</Uid>
+</InstancePath>
+<Position>0 0 0.073554032883765164</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>exhaust fan-1</Uid>
+</InstancePath>
+<Position>0 0 0.074999999999999997</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>exhaust fan casing 2-2</Uid>
+</InstancePath>
+<Position>0 0 -0.015500000000000017</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>exhaust fan-1</Uid>
+</InstancePath>
+<Position>0 0 0.014999999999999999</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Distance>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="exhaust fan CASING part1" uid="exhaust fan CASING part1*:*Default" version="647">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="exhaust fan CASING part1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.45057012303066901</Mass>
+<CenterOfMass>0 -0.00022217273276875046 -0.032953117381868464</CenterOfMass>
+<Inertia>0.0081838976727186003 0.0099158391017336121 0.017547281114113317 -2.1569376602051792e-06 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="exhaust fan CASING part1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="exhaust fan casing 2" uid="exhaust fan casing 2*:*Default" version="601">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="exhaust fan casing 2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.80630450238161933</Mass>
+<CenterOfMass>7.8890211878374806e-08 -5.7307818362703585e-07 0.019023314223695229</CenterOfMass>
+<Inertia>0.014588096351719485 0.014588059904896459 0.027315933947134663 -2.201448642268037e-08 3.1383588852444507e-09 7.9333771714759373e-09</Inertia>
+</MassProperties>
+<GeometryFile name="exhaust fan casing 2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="exhaust fan part 3" uid="exhaust fan part 3*:*Default" version="181">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="exhaust fan part 3.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.23209606815746148</Mass>
+<CenterOfMass>0 -0.015524650982031062 -0.0026289029265144973</CenterOfMass>
+<Inertia>0.00024977851739412454 0.0021953640318352753 0.0024362377766283211 -2.461315669581744e-05 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="exhaust fan part 3_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="exhaust fan" uid="exhaust fan*:*Default" version="518">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="exhaust fan.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.30327506200855703</Mass>
+<CenterOfMass>6.5991939496852304e-06 -2.4160525849318167e-06 0.047317347115998165</CenterOfMass>
+<Inertia>0.0011342507695518301 0.0011340312437181713 0.0020983530779264447 1.2988077538573315e-08 -3.4408929210424843e-08 -1.1274477174558791e-07</Inertia>
+</MassProperties>
+<GeometryFile name="exhaust fan_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
